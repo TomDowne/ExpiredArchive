@@ -2,112 +2,106 @@
 /* CSS Document */
 
 #background {
-	background-color: #316db0;
-	background-image: url(../images/background.jpg);
-	background-repeat: repeat-x;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 15px;
-	line-height: 21px;
+    background-color: #316db0;
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat-x;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    line-height: 21px;
 }
+
 #maincontainer {
-	height: auto;
-	width: 735px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
+    width: 735px;
+    margin: 0 auto;
+    min-height: calc(100vh - 118px); /* Ensure the container takes at least the full viewport height minus the footer height */
 }
 #header {
-	background-image: url(../images/header.jpg);
-	height: 203px;
-	width: 735px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	overflow: hidden;
+    background-image: url(../images/header.jpg);
+    height: 203px;
+    width: 735px;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
 }
 #contentarearepeat {
-	background-image: url(../images/contentarearepeat.jpg);
-	background-repeat: repeat-y;
-	height: auto;
-	width: 635px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-right: 50px;
-	padding-left: 50px;
-	overflow: hidden;
+    background-image: url(../images/contentarearepeat.jpg);
+    background-repeat: repeat-y;
+    width: 635px;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow: hidden;
 }
 #footer {
-	background-image: url(../images/footer.jpg);
-	height: 118px;
-	width: 735px;
-	margin-top: 0px;
-	overflow: hidden;
+    background-image: url(../images/footer.jpg);
+    background-size: cover;  /* Ensure the image covers the footer without repeating */
+    background-position: center;  /* Center the image */
+    height: 118px;  /* Fixed footer height */
+    width: 100%;  /* Full width */
+    margin-top: 0;  /* No extra margin above the footer */
+    overflow: hidden;  /* Prevent overflow */
 }
+
 #headline {
-	background-image: url(../images/headline.jpg);
-	height: 224px;
-	width: 596px;
-	margin-top: 20px;
-	margin-right: auto;
-	margin-bottom: 30px;
-	margin-left: auto;
+    background-image: url(../images/headline.jpg);
+    height: 224px;
+    width: 596px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
 }
 .subheadline {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 30px;
-	line-height: 50px;
-	color: #142334;
-	text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    line-height: 50px;
+    color: #142334;
+    text-align: center;
 }
 .subscribebox {
-	background-image: url(../images/subscribebox.jpg);
-	height: 140px;
-	width: 394px;
-	margin-top: 30px;
-	margin-right: auto;
-	margin-bottom: 30px;
-	margin-left: auto;
-	padding-top: 90px;
-	padding-right: 15px;
-	padding-left: 15px;
+    background-image: url(../images/subscribebox.jpg);
+    height: 140px;
+    width: 394px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    padding-top: 90px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .testimonialboxtop {
-	background-image: url(../images/testimonialboxtop.jpg);
-	height: 43px;
-	width: 515px;
-	margin-top: 30px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	overflow: hidden;
+    background-image: url(../images/testimonialboxtop.jpg);
+    height: 43px;
+    width: 515px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
 }
 .testimonialboxbodyrepeat {
-	background-image: url(../images/testimonialboxbodyrepeat.jpg);
-	height: auto;
-	width: 455px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 0px;
-	margin-left: auto;
-	overflow: hidden;
-	padding-right: 30px;
-	padding-left: 30px;
+    background-image: url(../images/testimonialboxbodyrepeat.jpg);
+    height: auto;
+    width: 455px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .testimonialboxbottom {
-	background-image: url(../images/testimonialboxbottom.jpg);
-	height: 22px;
-	width: 515px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: 30px;
-	margin-left: auto;
-	overflow: hidden;
+    background-image: url(../images/testimonialboxbottom.jpg);
+    height: 22px;
+    width: 515px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    overflow: hidden;
 }
 #background #maincontainer #contentarearepeat h1 strong {
-	color: #2B4894;
-	font-size: 36px;
+    color: #2B4894;
+    font-size: 36px;
 }
